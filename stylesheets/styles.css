@@ -194,7 +194,7 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-.content {
+div.content {
   padding: 0 18px;
   background-color: white;
   max-height: 0;
