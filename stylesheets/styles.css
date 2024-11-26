@@ -199,18 +199,18 @@ footer {
 /*inicio collap*/
 details {
   width: 80%;
- 
-  background-color: #eeeeee;
-  padding: 4px;
-  
-  
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
   border-radius: 5px;
   overflow: hidden;
 }
+
 summary {
   padding: 1rem;
   display: block;
-  background: #eeeeee;
+  background: #333;
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
@@ -223,7 +223,6 @@ summary:before {
   border-style: solid;
   border-color: transparent transparent transparent #fff;
   position: absolute;
-  background-color: #eeeeee;
   top: 1.3rem;
   left: 1rem;
   transform: rotate(0);
@@ -231,10 +230,7 @@ summary:before {
   transition: .25s transform ease;
 }
 
-
-
-
-
+/* THE MAGIC 🧙‍♀️ */
 details[open] > summary:before {
   transform: rotate(90deg);
 }
@@ -242,6 +238,10 @@ details[open] > summary:before {
 
 details summary::-webkit-details-marker {
   display:none;
+}
+details > ul {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
 .active, .collapsible:hover {
