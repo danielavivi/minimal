@@ -206,11 +206,21 @@ footer {
   outline: none;
   font-size: 13px;
 }
-
+.summary{
+  background-color: #eee;
+  
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 10%;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+}
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #eee;
-  ont-size: 13px;
+  
 }
 div.content {
   padding: 0 18px;
@@ -219,7 +229,7 @@ div.content {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-
+summary
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
