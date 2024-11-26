@@ -206,16 +206,48 @@ footer {
   outline: none;
   font-size: 13px;
 }
-.summary{
-  background-color: #eee;
-  
+/*inicio collap*/
+details {
+  width: 80%;
+  margin: 0 auto ;
+  background: #282828;
+  margin-bottom: .5rem;
+  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+  background: #333;
+  padding-left: 2.2rem;
+  position: relative;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: 10%;
-  text-align: left;
-  outline: none;
-  font-size: 13px;
+  user-select: none;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
+details summary::-webkit-details-marker {
+  display:none;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
