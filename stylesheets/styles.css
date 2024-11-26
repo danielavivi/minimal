@@ -195,22 +195,13 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-.collapsible {
-  background-color: #eee;
-  
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: 10%;
-  text-align: left;
-  outline: none;
-  font-size: 13px;
-}
+
 /*inicio collap*/
 details {
   width: 80%;
   margin: 0 auto ;
-  background: #eee;
+  background-color: #eeeeee;
+  padding: 4px;
   margin-bottom: .5rem;
   box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
   border-radius: 5px;
@@ -218,9 +209,10 @@ details {
 }
 
 summary {
-  padding: 1rem;
+  padding: 5px;
   display: block;
-  background: #eee;
+ background-color: #eeeeee;
+  padding: 4px;
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
@@ -231,7 +223,8 @@ summary:before {
   content: '';
   border-width: .4rem;
   border-style: solid;
-  border-color: transparent transparent transparent #fff;
+  background-color: #eeeeee;
+  padding: 4px;
   position: absolute;
   top: 1.3rem;
   left: 1rem;
@@ -249,7 +242,7 @@ details[open] > summary:before {
 details summary::-webkit-details-marker {
   display:none;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
 .active, .collapsible:hover {
   background-color: #eee;
   
@@ -260,8 +253,20 @@ div.content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+
+.collapsible {
+  background-color: #eee;
+  
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 10%;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
 }
-summary
+}*/
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
