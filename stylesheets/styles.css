@@ -209,8 +209,8 @@ footer {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #A52A2A;
-  ont-size: 10px;
+  background-color: #eee;
+  ont-size: 13px;
 }
 div.content {
   padding: 0 18px;
