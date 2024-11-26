@@ -199,11 +199,11 @@ footer {
 /*inicio collap*/
 details {
   width: 80%;
-  margin: 0 auto ;
+ 
   background-color: #eeeeee;
   padding: 4px;
-  margin-bottom: .5rem;
-  box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+  
+  
   border-radius: 5px;
   overflow: hidden;
 }
@@ -213,21 +213,21 @@ summary {
   display: block;
  background-color: #eeeeee;
   padding: 4px;
-  padding-left: 2.2rem;
+
   position: relative;
   cursor: pointer;
   user-select: none;
 }
 
 summary:before {
-  content: '';
-  border-width: .4rem;
+  
+ 
   border-style: solid;
   background-color: #eeeeee;
   padding: 4px;
   position: absolute;
-  top: 1.3rem;
-  left: 1rem;
+  top: 4px;
+ 
   transform: rotate(0);
   transform-origin: .2rem 50%;
   transition: .25s transform ease;
