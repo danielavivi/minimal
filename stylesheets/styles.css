@@ -198,6 +198,21 @@ footer {
 }
 
 /*inicio collap*/
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 0px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
 details {
   width: 100%;
   margin: 10px ;
@@ -208,16 +223,16 @@ details {
   overflow: hidden;
 }
 
-summary {
-  padding: 1rem;
+/*summary {
+  padding: 5rem;
   display: block;
   background: #eee;
-  padding-left: 2.2rem;
-  padding-right: 1rem;
+  padding-left: 3rem;
+ 
   position: relative;
   cursor: pointer;
   user-select: none;
-}
+}*/
 
 summary:before {
   content: '';
