@@ -211,7 +211,7 @@ details > p {
   background-color: #eeeeee;
   padding: 0px;
   margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
+ 
 }
 details {
   width: 100%;
@@ -253,15 +253,17 @@ details[open] > summary:before {
 }
 
 
-details summary::-webkit-details-marker {
-  display:none;
-}
+
 details > ul {
   padding-bottom: 1rem;
   margin-bottom: 0;
  
 }
-/*details > p {
+/*
+details summary::-webkit-details-marker {
+  display:none;
+} 
+details > p {
   
   padding: 5px;
   margin: 4;
