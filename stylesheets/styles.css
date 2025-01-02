@@ -209,7 +209,7 @@ details > summary {
 
 details > p {
   background-color: #eeeeee;
-  padding: 0px;
+  padding: 10px;
   margin: 0;
  
 }
@@ -253,13 +253,13 @@ details[open] > summary:before {
 }
 
 
-
+/*
 details > ul {
   padding-bottom: 1rem;
   margin-bottom: 0;
  
 }
-/*
+
 details summary::-webkit-details-marker {
   display:none;
 } 
