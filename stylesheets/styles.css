@@ -242,6 +242,8 @@ details summary::-webkit-details-marker {
 details > ul {
   padding-bottom: 1rem;
   margin-bottom: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
 .active, .collapsible:hover {
